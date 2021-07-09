@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+       <section class=" form-bg-pic">
         <nav>
             <ul>
                 <li><a target="_blend" href="home.html"> HOME</a></li>
@@ -19,11 +20,56 @@
                 <li> <a target="_blend" href="about.html"> ABOUT </a></li>
             </ul>
        </nav> 
-       <article class="welcome">
-        <h1> <span> Welcome</span> To Form Page</h1>
+       <article class="form-apply-one">
+        <h1> <span class="form-apply-koro">Apply Now
+            </span> <br>
+              Start your journey</h1>
         
        </article>
- 
+       </section>
+         
     </header>
-</body>
+    <header class="form-lrft">
+        <form class=" form-button-down"action="">
+
+        <p> Name: <input type="text" name="name" placeholder="Enter your name" id=""></p>
+        <p> Email: <input type="text" name="email" placeholder="Enter your email" id=""></p> 
+
+
+        <fieldset>
+
+                 <legend class="form-mid-mid">
+                     select your option
+                 </legend>
+                 <p> 
+                     <label for="Rock"> <input type="radio" name="SONG" id="Rock"> Rock </label> </p>
+                 <p> 
+                     <label for="DJ song"> <input type="radio" name="SONG" id="DJ song"> DJ Song </label> </p>
+                 <p> 
+                     <label for="fox"> <input type="radio" name="SONG" id="fox"> Fox Song</label> </p>
+                 <p> 
+                     <label for="kuyali"> <input type="radio" name="SONG" id="kuyali"> Kuyali </label> </p>
+
+                    
+        </fieldset>
+       </form>
+       <form action="">
+          <fieldset> 
+              <legend  class="form-mid-mid"> option </legend>
+              <p><label for="gitar"><input type="checkbox" name="jontreo" id="gitar">Gitar </label></p>
+              <p><label for="dram"><input type="checkbox" name="jontreo" id="dram"> Dram</label></p>
+              <p><label for="dule"><input type="checkbox" name="jontreo" id="dule">Dule</label></p>
+          </fieldset>
+          <p> Special Instruction
+              <br>
+              <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+          </p>
+          <button type="submit"> submit</button>
+          <button type="reset">Reset</button>
+       </form>
+    </header>
+             
+
+             
+</body> 
 </html>
